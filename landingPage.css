@@ -1,0 +1,265 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(19, 25, 29);
+}
+
+.navbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    min-height: 40px;
+    box-shadow: 0 0.3px rgb(11, 124, 223);
+}
+
+.logo {
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 60px;
+    font-weight: 200;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 254, 254);   
+    transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(5, 125, 185);
+    transition: all 0.3s ease;
+}
+
+.projects {
+    background-color: rgb(11, 124, 223);
+    color: white;
+    font-size: 15px;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+
+.projects:hover {
+    background-color: rgb(213, 224, 234);
+    color: rgb(5, 125, 185);
+    font-size: 15px;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+
+.log-in {
+    background-color: rgb(0, 170, 255);
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+.banner {
+    text-align: center;
+    width: 1200px;
+    margin: 200px auto;
+    margin-top: 300px;
+}
+
+.main-banner {
+    font-size: 60px;
+    font-weight: 700;
+    cursor: default;
+}
+
+.words {
+    color: rgb(11, 124, 223);
+}
+
+.description {
+    padding: 5px 300px;
+    cursor: default;
+}
+
+.banner-btn1 {
+    background-color: rgb(11, 124, 223);
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    margin-right: 7px;
+    transition: all 0.2s ease;
+}
+
+.banner-btn1:hover {
+    background-color: rgb(213, 224, 234);
+    color: rgb(5, 125, 185);
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    margin-right: 7px;
+    transition: all 0.2s ease;
+    font-weight: bold;
+}
+
+.banner-btn2 {
+    background-color: rgb(19, 25, 29);
+    border-style: solid;
+    border-color: rgb(11, 124, 223);
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 7px;
+    transition: all 0.2s ease;
+}
+
+.banner-btn2:hover {
+    background-color: rgb(213, 224, 234);
+    color: rgb(5, 125, 185);
+    border-style: solid;
+    border-color: rgb(11, 124, 223);
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 7px;
+    transition: all 0.2s ease;
+    font-weight: bold;
+}
+
+.image-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url(images/pexels-pramodtiwari-13988975.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    margin: 40px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 80px 90px;
+    border-radius: 20px;
+}
+
+.box-panel {
+    background-color: rgb(63, 63, 63);
+}
+
+b {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 45px;
+    font-weight: 200;
+    margin-bottom: 0;
+    align-items: flex-end;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.sign-up, .register {
+    background-color: rgb(11, 124, 223);;
+    color: rgb(255, 255, 255);
+    height: 35px;
+    width: 130px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sign-up:hover, .register:hover {
+    background-color: rgb(213, 224, 234);
+    color: rgb(5, 125, 185);
+    height: 35px;
+    width: 130px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+header div {
+    background-color: aliceblue;
+}
+
+.banner3 {
+    height: 70px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: rgba(42, 57, 67, 0.624);
+    height: 300px;
+    margin-top: 300px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.li-about {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.footer-box li {
+    color: white;
+    list-style: none;
+    font-weight: 200;
+}
+
+.footer-box li a{
+    text-decoration: none;
+}
