@@ -8,6 +8,8 @@ body {
 
 
 /*=-=-=-=-=-=-=-= NAVIGATION BAR =-=-=-=-=-=-=-=*/
+
+
 .navbox {
     display: flex;
     justify-content: space-between;
@@ -28,13 +30,6 @@ body {
 }
 .navbar ul li {
     list-style: none;
-}
-.navbar ul li:hover {
-    list-style: none;
-    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
-    background-color: rgba(255, 255, 255, 0.22);
-    border-radius: 30px;
-    transition: all 0.3s ease;
 }
 .navbar ul li a{
     text-decoration: none;

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: rgb(62, 43, 43);
+}
+
+.login-main {
+    background-color: brown;
+    height: 500px;
+    width: 900px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
