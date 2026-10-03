@@ -125,3 +125,19 @@ p {
     margin-top: 5px;
     margin-left: 20px;
 }
+
+.banner h3 ul li {
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.banner h3 ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.banner h3 {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
