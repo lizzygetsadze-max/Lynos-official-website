@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="switch.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="inner-navbar">
+                <h3 class="logo">LynOS</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="">Premium</a></li>
+                    <li><a href="">Sign In</a></li>
+                    
+                </ul>
+                <button id="modeButton">Dark Mode</button>
+        </div>
+    </div>
+
+    <div class="banner">
+        <h3>Power Your Workspace With All New Tool Bundle!</h3>
+        <p>Get Unlimited Features By Signing Up For Our Partner Program! <br>
+        Get 20% Off For The First Year After Purchasing! <b>Deal Ends Soon!</b></p>
+        <div class="btns">
+            <button class="learn-more">Learn More</button>
+            <button class="sign-up">SIgn Up</button>
+        </div>
+    </div>
+
+    <script>
+        const button = document.getElementById("modeButton");
+
+        button.onclick = function() {
+            document.body.classList.toggle("dark");
+
+            if (document.body.classList.contains("dark")) {
+                button.textContent = "Light Mode";
+            } else {
+                button.textContent = "Dark Mode";
+            }
+        }
+    </script>
+</body>
+</html>
